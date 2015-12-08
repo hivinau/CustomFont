@@ -1,7 +1,7 @@
 # CustomFont
 
 
-<h1>This project is for free use. It deals with add font to TextView directly on xml.</h1>
+<h1>This project is for free use. It deals with set typeface to TextView directly on xml.</h1>
 <br>
 <h2>Use it only on xml file layout.</2>
 <br>
