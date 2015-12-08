@@ -58,6 +58,20 @@ public class TextView extends android.widget.TextView
     }
 
     /**
+     * Constructor : create a new instance of {@link TextView}
+     * @param context context
+     * @param attrs attrs
+     * @param defStyleAttr defattr
+     * @param defStyleRes res
+     */
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+    public TextView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+        super(context, attrs, defStyleAttr, defStyleRes);
+
+        initFont(attrs);
+    }
+
+    /**
      * Init default value of font
      * @param attrs a collection of attributes associated with xml
      */
@@ -94,19 +108,5 @@ public class TextView extends android.widget.TextView
                 a.recycle();
             }
         }
-    }
-
-    /**
-     * Constructor : create a new instance of {@link TextView}
-     * @param context context
-     * @param attrs attrs
-     * @param defStyleAttr defattr
-     * @param defStyleRes res
-     */
-    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    public TextView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-        super(context, attrs, defStyleAttr, defStyleRes);
-
-        setTypeface(Typeface.createFromAsset(context.getAssets(), Constant.FONT_BEBAS_NEUE));
     }
 }
