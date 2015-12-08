@@ -16,12 +16,12 @@
 <br>
 <p>By :</p>
 <br>
-<p style="color: red">&lt;fr.futurdigital.apps.android.circleimageview.TextView</p>
+<p style="color:blue;">&lt;fr.futurdigital.apps.android.circleimageview.TextView</p>
 <p>android:layout_width="wrap_content" </p>
 <p>android:layout_height="wrap_content" </p> 
 <p>android:textColor="#000" </p>
 <p>android:textSize="20sp" </p>
-<p style="color: red">app:font="PHILOSOPHER_ITALIC" </p>
+<p style="color:blue;">app:font="PHILOSOPHER_ITALIC" </p>
 <p>android:text="your text"/&gt; </p>
 <br>
 <p>Note : has only one custom attribut to set on xml -&gt; see https://github.com/hivinau/CustomFont/blob/master/textview/src/main/res/values/attrs.xml </p>
