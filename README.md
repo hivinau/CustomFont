@@ -26,4 +26,4 @@
 <br>
 <p>Note : has only one custom attribut to set on xml -&gt; see https://github.com/hivinau/CustomFont/blob/master/textview/src/main/res/values/attrs.xml </p>
 <p>See result : </p>
-![alt tag](http://s17.postimg.org/l0wx5zasv/result.png)
+![alt tag](http://s24.postimg.org/fzxzfa0rp/device_2015_12_08_174144.png)
