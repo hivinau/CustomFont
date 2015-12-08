@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fr.futurdigital.apps.android.textview.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="@string/example_1"
+        app:font="BEBAS_NEUE"/>
+
+    <fr.futurdigital.apps.android.textview.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="@string/example_2"
+        app:font="GLYPHICONS_HALFLINGS_REGULAR"/>
+
+    <fr.futurdigital.apps.android.textview.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="@string/example_3"
+        app:font="PHILOSOPHER_BOLD"/>
+
+    <fr.futurdigital.apps.android.textview.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="@string/example_4"
+        app:font="PHILOSOPHER_BOLD_ITALIC"/>
+
+    <fr.futurdigital.apps.android.textview.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="@string/example_5"
+        app:font="PHILOSOPHER_ITALIC"/>
+
+    <fr.futurdigital.apps.android.textview.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="@string/example_6"
+        app:font="PHILOSOPHER_REGULAR"/>
+</LinearLayout>

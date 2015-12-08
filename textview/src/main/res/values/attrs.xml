@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextView">
+        <attr name="font" format="enum">
+            <enum name="BEBAS_NEUE" value="0"/>
+            <enum name="GLYPHICONS_HALFLINGS_REGULAR" value="1"/>
+            <enum name="PHILOSOPHER_BOLD" value="2"/>
+            <enum name="PHILOSOPHER_BOLD_ITALIC" value="3"/>
+            <enum name="PHILOSOPHER_ITALIC" value="4"/>
+            <enum name="PHILOSOPHER_REGULAR" value="5"/>
+        </attr>
+    </declare-styleable>
+</resources>
