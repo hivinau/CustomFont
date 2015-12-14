@@ -3,11 +3,35 @@
     <declare-styleable name="TextView">
         <attr name="font" format="enum">
             <enum name="BEBAS_NEUE" value="0"/>
+
             <enum name="GLYPHICONS_HALFLINGS_REGULAR" value="1"/>
+
             <enum name="PHILOSOPHER_BOLD" value="2"/>
             <enum name="PHILOSOPHER_BOLD_ITALIC" value="3"/>
             <enum name="PHILOSOPHER_ITALIC" value="4"/>
             <enum name="PHILOSOPHER_REGULAR" value="5"/>
+
+            <enum name="ALTEREBRO_PIXEL" value="6"/>
+            <enum name="PIXELSPLITTER_BOLD" value="7"/>
+
+            <enum name="ROBOTO_BLACK" value="8"/>
+            <enum name="ROBOTO_BLACK_ITALIC" value="9"/>
+            <enum name="ROBOTO_BOLD" value="10"/>
+            <enum name="ROBOTO_BOLD_ITALIC" value="11"/>
+            <enum name="ROBOTO_ITALIC" value="12"/>
+            <enum name="ROBOTO_LIGHT" value="13"/>
+            <enum name="ROBOTO_LIGHT_ITALIC" value="14"/>
+            <enum name="ROBOTO_MEDIUM" value="15"/>
+            <enum name="ROBOTO_MEDIUM_ITALIC" value="16"/>
+            <enum name="ROBOTO_REGULAR" value="17"/>
+            <enum name="ROBOTO_THIN" value="18"/>
+            <enum name="ROBOTO_THIN_ITALIC" value="19"/>
+
+            <enum name="BEBAS_NEUE_REGULAR" value="20"/>
+            <enum name="BEBAS_NEUE_BOLD" value="21"/>
+            <enum name="BEBAS_NEUE_BOOK" value="22"/>
+            <enum name="BEBAS_NEUE_LIGHT" value="23"/>
+            <enum name="BEBAS_NEUE_THIN" value="24"/>
         </attr>
     </declare-styleable>
 </resources>

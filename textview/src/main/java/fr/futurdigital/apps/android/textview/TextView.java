@@ -31,6 +31,7 @@ public class TextView extends android.widget.TextView
     public TextView(Context context) {
         super(context);
 
+        initTypeface();
         initFont(null);
     }
 
@@ -42,6 +43,7 @@ public class TextView extends android.widget.TextView
     public TextView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
+        initTypeface();
         initFont(attrs);
     }
 
@@ -54,6 +56,7 @@ public class TextView extends android.widget.TextView
     public TextView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
+        initTypeface();
         initFont(attrs);
     }
 
@@ -68,7 +71,17 @@ public class TextView extends android.widget.TextView
     public TextView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
 
+        initTypeface();
         initFont(attrs);
+    }
+
+    /**
+     * Init default typeface : if not, when instanciate programmatically, all characters wiil be BOLD
+     */
+    private void initTypeface(){
+        if(!isInEditMode()) {
+            this.setTypeface(null, Typeface.NORMAL);
+        }
     }
 
     /**
@@ -102,7 +115,65 @@ public class TextView extends android.widget.TextView
                     case 5:
                         path = Constant.FONT_PHILOSOPHER_REGULAR;
                         break;
+                    case 6:
+                        path = Constant.FONT_ALTEREBRO_PIXEL;
+                        break;
+                    case 7:
+                        path = Constant.FONT_PIXELSPLITTER_BOLD;
+                        break;
+                    case 8:
+                        path = Constant.FONT_ROBOTO_BLACK;
+                        break;
+                    case 9:
+                        path = Constant.FONT_ROBOTO_BLACKITALIC;
+                        break;
+                    case 10:
+                        path = Constant.FONT_ROBOTO_BOLD;
+                        break;
+                    case 11:
+                        path = Constant.FONT_ROBOTO_BOLDITALIC;
+                        break;
+                    case 12:
+                        path = Constant.FONT_ROBOTO_ITALIC;
+                        break;
+                    case 13:
+                        path = Constant.FONT_ROBOTO_LIGHT;
+                        break;
+                    case 14:
+                        path = Constant.FONT_ROBOTO_LIGHTITALIC;
+                        break;
+                    case 15:
+                        path = Constant.FONT_ROBOTO_MEDIUM;
+                        break;
+                    case 16:
+                        path = Constant.FONT_ROBOTO_MEDIUMITALIC;
+                        break;
+                    case 17:
+                        path = Constant.FONT_ROBOTO_REGULAR;
+                        break;
+                    case 18:
+                        path = Constant.FONT_ROBOTO_THIN;
+                        break;
+                    case 19:
+                        path = Constant.FONT_ROBOTO_THINITALIC;
+                        break;
+                    case 20:
+                        path = Constant.FONT_BEBAS_NEUE_BOLD;
+                        break;
+                    case 21:
+                        path = Constant.FONT_BEBAS_NEUE_BOOK;
+                        break;
+                    case 22:
+                        path = Constant.FONT_BEBAS_NEUE_LIGHT;
+                        break;
+                    case 23:
+                        path = Constant.FONT_BEBAS_NEUE_REGULAR;
+                        break;
+                    case 24:
+                        path = Constant.FONT_BEBAS_NEUE_THIN;
+                        break;
                 }
+
                 setTypeface(Typeface.createFromAsset(getContext().getAssets(), path));
 
                 a.recycle();
